@@ -3,9 +3,12 @@ package com.example.kotlon1homework1.ui.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.kotlon1homework1.databinding.ItemBooksBinding
+import com.example.kotlon1homework1.interfaces.OnItemClickListener
+import com.example.kotlon1homework1.models.BookModel
 
 class BooksAdapter(
-    (
+
     private val onItemClickListener: OnItemClickListener<BookModel>
 )
 
@@ -56,4 +59,4 @@ class BooksAdapter(
     }
 
 
-})
+}

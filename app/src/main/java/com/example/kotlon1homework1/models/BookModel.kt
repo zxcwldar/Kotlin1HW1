@@ -3,6 +3,6 @@ import java.io.Serializable
 
 class BookModel (
     val title: String,
-    val descriptor: String ,
+    val description: String ,
     val image: Int
         ) : Serializable

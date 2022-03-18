@@ -2,6 +2,7 @@ package com.example.kotlon1homework1.ui.fragments
 
 
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.ViewModel
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.kotlon1homework1.R
