@@ -22,7 +22,7 @@ class BooksFragment : BaseFragment<FragmentBooksBinding>(
     private val adapter = BooksAdapter(this)
 
     override fun initAdapter() {
-        adapter.setList(BookClient().getBooks())
+        adapter.setList(viewModel.getBooks())
         binding.recyclerview.adapter = adapter
 
     }

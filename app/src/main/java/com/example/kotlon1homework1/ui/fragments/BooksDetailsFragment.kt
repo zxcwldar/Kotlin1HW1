@@ -1,8 +1,5 @@
 package com.example.kotlon1homework1.ui.fragments
 
-
-import androidx.fragment.app.activityViewModels
-
 import androidx.navigation.fragment.navArgs
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.kotlon1homework1.R
@@ -13,7 +10,6 @@ class BooksDetailsFragment : BaseFragment<FragmentBooksDetailsBinding>(
     R.layout.fragment_books_details
 ) {
     override val binding: FragmentBooksDetailsBinding by viewBinding(FragmentBooksDetailsBinding::bind)
-    private val viewModel: BooksViewModel by activityViewModels()
     private val args: BooksDetailsFragmentArgs by navArgs()
 
 

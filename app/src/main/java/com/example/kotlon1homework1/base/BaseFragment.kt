@@ -20,6 +20,7 @@ abstract class BaseFragment<Binding : ViewBinding>(@LayoutRes layoutId: Int) : F
         getArgs()
     }
 
+
     open fun initListeners() {
 
     }
